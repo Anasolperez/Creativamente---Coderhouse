@@ -1,0 +1,32 @@
+footer {
+    background-color: $light-gray;
+    padding: 40px 64px;
+    border-top: 2px solid $primary-color;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 32px;
+    font-size: 0.9rem;
+  
+    ul {
+      list-style: none;
+    }
+  
+    a {
+      color: $text-color;
+      text-decoration: none;
+  
+      &:hover {
+        color: $primary-color;
+      }
+    }
+  
+    span {
+      display: block;
+      width: 100%;
+      text-align: center;
+      margin-top: 16px;
+      color: #999;
+    }
+  }
+  

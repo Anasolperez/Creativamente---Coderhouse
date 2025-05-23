@@ -1,0 +1,17 @@
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: $text-color;
+    font-weight: 500;
+    transition: color 0.3s;
+  
+    &:hover {
+      color: $primary-color;
+    }
+  }
+  

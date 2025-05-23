@@ -1,0 +1,44 @@
+input[type="text"],
+input[type="email"],
+input[type="submit"],
+textarea {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-family: inherit;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  max-width: 400px;
+  margin-top: 16px;
+}
+
+label {
+  font-weight: 600;
+  color: #555;
+}
+
+section label {
+  font-weight: 600;
+  margin-top: 16px;
+  display: block;
+  color: #555;
+}
+
+section input[type="text"],
+section input[type="email"],
+section textarea {
+  width: 100%;
+  max-width: 500px;
+  padding: 8px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+}

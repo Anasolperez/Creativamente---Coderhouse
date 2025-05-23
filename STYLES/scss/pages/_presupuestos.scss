@@ -1,0 +1,34 @@
+section label {
+    font-weight: 600;
+    margin-top: 16px;
+    display: block;
+    color: #555;
+  }
+  
+  section input[type="text"],
+  section input[type="email"],
+  section textarea {
+    width: 100%;
+    max-width: 500px;
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+  }
+  
+  section input[type="submit"] {
+    background-color: orange;
+    color: white;
+    border: none;
+    padding: 0.7rem 1.2rem;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  
+    &:hover {
+      background-color: #e69500;
+    }
+  }
+  
