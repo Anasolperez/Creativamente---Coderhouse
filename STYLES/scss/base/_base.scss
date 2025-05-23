@@ -1,8 +1,7 @@
-@use '../abstracts/variables';
-
 body {
-  font-family: variables.$font-family-base;
-  background-color: variables.$color-bg;
-  color: variables.$color-text;
+  font-family: 'Montserrat', sans-serif;
   line-height: 1.6;
+  background-color: #fff;
+  color: #333;
+  padding: 20px;
 }

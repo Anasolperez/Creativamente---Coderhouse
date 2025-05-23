@@ -1,17 +1,20 @@
-nav ul {
+@use '../abstracts/variables' as v;
+
+nav {
+  ul {
     list-style: none;
     display: flex;
     gap: 1.5rem;
   }
-  
-  nav a {
+
+  a {
     text-decoration: none;
-    color: $text-color;
+    color: v.$color-texto;
     font-weight: 500;
     transition: color 0.3s;
-  
+
     &:hover {
-      color: $primary-color;
+      color: v.$color-principal;
     }
   }
-  
+}

@@ -1,12 +1,23 @@
+// 1. Abstracts
 @use 'abstracts/variables';
+
+// 2. Base
+@use 'base/reset';
 @use 'base/base';
-@use 'layout/header';
-@use 'layout/footer';
+@use 'base/typography';
+
+// 3. Components
+@use 'components/buttons';
+@use 'components/carousel';
 @use 'components/forms';
+
+// 4. Layout
+@use 'layout/footer';
+@use 'layout/header';
+@use 'layout/navigation';
+
+// 5. Pages
 @use 'pages/home';
-
-
-
-@use 'base/base';
-@use 'abstracts/variables';
-@use 'base/base';
+@use 'pages/sobre-nosotros';
+@use 'pages/presupuestos';
+@use 'pages/contacto';

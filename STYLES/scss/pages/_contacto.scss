@@ -1,19 +1,43 @@
+@use '../abstracts/variables' as v;
+
 .contacto-rapido {
-    text-align: center;
-    padding: 32px;
-  }
-  
-  .contacto-rapido .btn {
+  text-align: center;
+  padding: 32px;
+
+  .btn {
     display: inline-block;
-    background-color: orange;
+    background-color: v.$color-principal;
     color: white;
     padding: 0.75rem 1.5rem;
     text-decoration: none;
     border-radius: 5px;
     margin-top: 16px;
-  
+
     &:hover {
-      background-color: #e69500;
+      background-color: v.$color-hover;
     }
   }
-  
+}
+
+.pedido {
+  max-width: 800px;
+  margin: 32px auto;
+  padding: 16px;
+
+  h2 {
+    color: v.$color-principal;
+    font-size: 24px;
+    margin-bottom: 16px;
+    text-align: center;
+  }
+
+  ol {
+    list-style: decimal inside;
+    line-height: 1.6;
+  }
+
+  a {
+    color: v.$color-principal;
+    text-decoration: underline;
+  }
+}
